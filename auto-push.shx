@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd $PWD
 git add .
 git commit -a -m "${1:-Update at $(date +%Y-%m-%dT%H:%M:%S%z)}"
 git push
