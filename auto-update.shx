@@ -7,7 +7,7 @@ git pull # Update the branch to the latest code
 git stash apply # Merge your local changes into the latest code
 
 # Then commit and push changes
-git add .
+git add all
 git commit -a -m "${1:-Update at $(date +%Y-%m-%dT%H:%M:%S%z)}"
 git push
 echo ""
