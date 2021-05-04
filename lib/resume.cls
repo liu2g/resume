@@ -4,7 +4,7 @@
  % This template has been downloaded from:
  % http://www.LaTeXTemplates.com
  %
- % This class file defines the structure and design of the template. 
+ % This class file defines the structure and design of the template.
  %
  % Original header:
  % Copyright (C) 2010 by Trey Hunner
@@ -17,47 +17,47 @@
  % Created by Trey Hunner and modified by www.LaTeXTemplates.com
  %
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
+
  \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
- 
+
  \LoadClass[10pt,letterpaper]{article} % Font size and paper type
- 
+
  \usepackage[parfill]{parskip} % Remove paragraph indentation
  \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
  \usepackage{ifthen} % Required for ifthenelse statements
- 
+
  \usepackage{hyperref}
  \hypersetup{
  	colorlinks=true,
  	linkcolor=blue,
- 	filecolor=magenta,      
+ 	filecolor=magenta,
  	urlcolor=cyan,
  }
- 
+
  \pagestyle{empty} % Suppress page numbers
- 
+
  %----------------------------------------------------------------------------------------
  %	HEADINGS COMMANDS: Commands for printing name and address
  %----------------------------------------------------------------------------------------
- 
+
  \def \name#1{\def\@name{#1}} % Defines the \name command to set name
  \def \@name {} % Sets \@name to empty by default
- 
- \def \obj#1{\def\@obj{#1}} 
- \def \@obj{} 
- 
- \def \objspec#1{\def\@objspec{#1}} 
- \def \@objspec{} 
- 
 
- 
+ \def \obj#1{\def\@obj{#1}}
+ \def \@obj{}
+
+ \def \objspec#1{\def\@objspec{#1}}
+ \def \@objspec{}
+
+
+
  \def \addressSep {\qquad} % Set default address separator to a diamond
- 
- % One, two or three address lines can be specified 
+
+ % One, two or three address lines can be specified
  \let \@addressone \relax
  \let \@addresstwo \relax
  \let \@addressthree \relax
- 
+
  % \address command can be used to set the first, second, and third address (last 2 optional)
  \def \address #1{
  	\@ifundefined{@addresstwo}{
@@ -69,7 +69,7 @@
  			\def \@addressone {#1}
  	}}
  }
- 
+
  % \printaddress is used to style an address line (given as input)
  \def \printaddress #1{
  	\begingroup
@@ -80,7 +80,7 @@
  	\par
  	\addressskip
  }
- 
+
  % \printname is used to print the name as a page header
  \def \printname {
  	\begingroup
@@ -88,11 +88,11 @@
  	\nameskip\break
  	\endgroup
  }
- 
+
  %----------------------------------------------------------------------------------------
  %	PRINT THE HEADING LINES
  %----------------------------------------------------------------------------------------
- 
+
  \let\ori@document=\document
  \renewcommand{\document}{
  	\ori@document  % Begin document
@@ -105,7 +105,7 @@
  	\@ifundefined{@addressthree}{}{ % Print the third address if specified
  		\printaddress{\large\@addressthree}}
  	\hrule
- 	\begin{center} 
+ 	\begin{center}
  		{\bf \large \@obj}
  		\sectionskip \ \\
  		{\@objspec}
@@ -113,11 +113,11 @@
 % 	\sectionlineskip
 % 	\hrule
  }
- 
+
  %----------------------------------------------------------------------------------------
  %	SECTION FORMATTING
  %----------------------------------------------------------------------------------------
- 
+
  % Defines the rSection environment for the large sections within the CV
  \newenvironment{rSection}[1]{ % 1 input argument - section name
  	\sectionskip
@@ -133,11 +133,11 @@
  	\end{list}
  	\sectionskip
  }
- 
+
  %----------------------------------------------------------------------------------------
  %	WORK EXPERIENCE FORMATTING
  %----------------------------------------------------------------------------------------
- 
+
  \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
  	{\bf #1} \hfill {#2} % Bold company name and date on the right
  	\ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
@@ -150,11 +150,11 @@
  	\end{list}
  	\vspace{0.5em} % Some space after the list of bullet points
  }
- 
+
  % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
  \def\namesize{\LARGE} % Size of the name at the top of the document
  \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
- \def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
+ \def\sectionlineskip{\medskip} % The space above the horizontal line for each section
  \def\nameskip{\bigskip} % The space after your name at the top
  \def\sectionskip{\medskip} % The space after the heading section
- 
+
