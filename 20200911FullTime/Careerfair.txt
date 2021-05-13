@@ -48,11 +48,11 @@ At the high level, I worked with Python, MATLAB, Java and C++ before. At low lev
 
 09/16/2020 11:37 AM
  
-Have you taken any classes that have exposed you to RToS such as FreeRToS, uCOS or MBed?  Embedded MCU applications rely heavily on these for task management/scheduling/interupt handling.  
+Have you taken any classes that have exposed you to RToS such as FreeRTOS for ARM Cortex-M, uCOS or MBed?  Embedded MCU applications rely heavily on these for task management/scheduling/interupt handling.  
 
 09/16/2020 11:42 AM - Doug
 
-Yes. I have worked with FreeRTOS before in an embedded system lab class. We briefly implemented the task management, memory allocation and interrupts on an Atmel chip. I have learned the other OS's too in class but not really used them myself before
+Yes. I have worked with FreeRTOS for ARM Cortex-M before in an embedded system lab class. We briefly implemented the task management, memory allocation and interrupts on an Atmel chip. I have learned the other OS's too in class but not really used them myself before
 
 09/16/2020 11:47 AM
  
@@ -69,7 +69,7 @@ I used MPLAB for PIC chip programming before. I used the debugger in the softwar
 
 09/16/2020 11:57 AM
  
-Thanks.  As an application engineer you would be utilizing Linux or Android for applications based on A-class processors or Eclipse-based IDEs for embedded designs utilizing FreeRTos, MBed, etc...
+Thanks.  As an application engineer you would be utilizing Linux or Android for applications based on A-class processors or Eclipse-based IDEs for embedded designs utilizing FreeRTOS for ARM Cortex-M, MBed, etc...
 
 09/16/2020 12:08 PM - Doug
 
