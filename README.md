@@ -2,4 +2,4 @@
 
 Template class file modified from [Trey Hunner's template](https://www.latextemplates.com/template/medium-length-professional-cv).
 
-See [latest release](/releases/latest) for my most updated resume.
+See [latest release]([/releases/latest](https://github.com/liu2z2/resume/releases/latest)) for my most updated resume.
