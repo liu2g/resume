@@ -1,4 +1,4 @@
-Searching for jobs searting July 2021.
+Searching for jobs, available now.
 
 I have created several versions of my resume, as I have multiple fields of interests and was not able to demonstrate all of them in one page.
 - `Liu_hw_analog.pdf` for positions related to analog electrical engineering
