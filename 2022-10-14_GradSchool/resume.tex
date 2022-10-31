@@ -1,0 +1,129 @@
+\documentclass{../lib/resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Liu(Zuguang Liu)} % Your name
+
+\address{(513)886-6058 \\
+\href{mailto:leo85811nardo@protonmail.com}{Email} \\
+\href{https://www.linkedin.com/in/zg-liu/}{LinkedIn} \\
+\href{https://liu2z2.github.io/}{Website}}
+
+\obj{
+    Prepared For Graduate Assistantship Application}
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EDUCATION}
+    {\bf M.S. Electrical Engineering}, University of Cincinnati, USA \hfill {January 2020 - Postponed} \\
+    \null \hfill GPA 4.0/4.0 \smallskip
+
+    {\bf B.S. Electrical Engineering}, University of Cincinnati, USA \hfill {August 2016 - May 2021}\\
+    Mathematics and Embedded Systems minor, University Honors Program \hfill {GPA 3.9/4.0}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
+        Signals and Systems     & DSP, Frequency analysis, feedback control systems, PID controller, linear system theory       \\
+        Embedded Hardware       & System design with MCU, circuit/firmware driver for sensors, actuators and robots \\
+        Communication Interface & I2C, SPI, UART, Bluetooth, Zigbee, USB, Ethernet, CAN in signal and application layer \\
+        Circuit Design          & Analog and digital circuit design, analysis and simulation, Verilog HDL on FPGA               \\
+        Embedded Programming    & Assembly for PIC on MPLAB, C for Atmel, FreeRTOS for ARM Cortex-M                   \\
+        Prototyping and Testing & On-board and PCB prototyping, developing test fixture and procedure, troubleshooting          \\
+        Software Development    & Git, Linux, C/C++, Python, MATLAB, SQLite database                                             \\
+    \end{tabular}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+    \textbf{Embedded Software Engineer} \hfill August 2021 - Now \\
+    L\&T Technologies \hfill \textit{Peoria, IL}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item Maintain and troubleshoot embedded C firmware for Catepillar transmission Electronic Control Module (ECM)
+        \item Maintain and develop automated testing framework for ECM firmware in a virtual simulated environment
+        \item Develop feature-oriented test strategies and automation scripts for ECM firmware
+    \end{itemize}
+
+    \textbf{Brain Computer Interface (BCI) Research} \hfill August 2019 - May 2021 \\
+    UC HCI Lab \hfill \textit{Cincinnati, OH}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item Apply data analysis methods to spatio-temporal electroencephalographic (EEG) data for classification problem
+        \item Apply machine learning methods to detect human motor imagery intentions using post-processed data
+        \item Assist on a multi-disciplinary robotic project that implements BCI, SLAM and NLP
+    \end{itemize}
+
+
+    \textbf{Electrical Engineer (R\&D Co-op)} \hfill June - August 2019\\
+    Ethicon Endo-Surgery Inc. \hfill \textit{Blue Ash, OH}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item Designed, assembled, troubleshooted and tested a PCB for a prototype product
+        \item Built test fixtures for NFC sensors using microcontrollers
+        \item Documented implementation methods, testing procedure and test results
+    \end{itemize}
+
+    \textbf{Electrical Engineer Team Member} \hfill August 2019 - now
+    \\	rLoop - a global, crowdsourced engineering organization \hfill \textit{}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item \textit{Not-A-Boring-Competition} is run by the Boring Company that aims to build a novel tunnel boring system
+        \item Designed a modified leader-follower control scheme with pure-pursuit algorithm for the proposed final design draft
+        \item Design proposal selected with 11 other finalists among 390 competitors
+    \end{itemize}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+    \vspace{-1em}
+
+    \item \textbf{Neuromorphic Computing Research} {Developed an analog circuit system to simulate spiking neural signal}
+    \item \href{https://github.com/liu2z2/mgms}{\textbf{Modular Garden Monitoring System}} {An embedded system that autonomously manages garden environment with friendly UI, modular design and wireless communication (Senior Capstone Project)}
+    \item \textbf{Hyperloop Competition} {Participated in the engineering of the levitation pod for the carrier vehicle. The system uses PID controller designed in Python and implemented with C into FreeRTOS.}
+    \item \textbf{UC Robotics} {Developed computer vision system for sensor fusion and decision making algorithms. Maintainer of the GitHub repository while in the team.}
+
+\end{rSection}
+
+%	%----------------------------------------------------------------------------------------
+%	\begin{rSection}{Extra-Cirrucular Activities}
+%		\begin{itemize}
+%			\item 	Sample bullet point.
+%			\item	Sample bullet point.
+%		\end{itemize}
+%
+%
+%	\end{rSection}
+%
+%	%----------------------------------------------------------------------------------------
+%	\begin{rSection}{Leadership}
+%		\begin{itemize}
+%			\item Sample section
+%		\end{itemize}
+%
+%
+%	\end{rSection}
+
+
+\end{document}
+
