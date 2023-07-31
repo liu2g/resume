@@ -4,10 +4,6 @@ Template class file modified from [Trey Hunner's template](https://www.latextemp
 
 See [latest release](https://github.com/liu2z2/resume/releases/latest) for my most updated resume.
 
-I am currently working at [L&T Technology Service](https://www.ltts.com/) in Peoria, IL, but free to download my resume and contact me for future job opportunities.
-
-I have created several versions of my resume, as I have multiple fields of interests and was not able to demonstrate all of them in one page.
-- `Liu_hw.pdf` for positions in electrical and computer engineering in general
-- `Liu_sw.pdf` for positions related to the development of AI, machine learning, robotics, intelligent data analysis, etc.
+I am studying [Master's Degree in Electrical Engineering at Bradley University](https://www.bradley.edu/academic/departments/ece/gradprogram/msee/) in Peoria, IL, but free to download my resume and contact me for future job opportunities.
 
 I apologize for the confusion in advance and you can contact me at liu2z2@mail.uc.edu or 513-886-6058.
