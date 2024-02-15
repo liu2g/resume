@@ -1,0 +1,136 @@
+\documentclass{lib/resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Liu(Zuguang Liu)} % Your name
+
+\address{(513)886-6058 \\
+liu2g@pm.me \\
+liu2g.github.io
+}
+
+\obj{
+    Seeking for Electrical \& Computer Engineering Summer Intership/Co-op}
+% \objspec{
+%     Citizenship: F1 with CPT (1 year) and OPT (1 year + 2 year STEM Extension)
+% }
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EDUCATION}
+    {\bf M.S. Electrical Engineering}, Bradley University, USA \hfill {August 2023 - Now} \\
+    Specialize in Robotics and Mechatronics \hfill GPA 4.0/4.0 \smallskip
+
+    {\bf B.S. Electrical Engineering}, University of Cincinnati, USA \hfill {August 2016 - May 2021}\\
+    Mathematics and Embedded Systems minor, University Honors Program \hfill {GPA 3.9/4.0}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
+        Embedded Hardware       & System design with MCU, interfacing mechatronic sensors, actuators and robot manipulators \\
+        Embedded Programming    & HAL and RTOS programming on platforms including PIC, AVR, ARM (STM32) and RISC-V  \\
+        Communication Interface & I2C, SPI, UART, Bluetooth, Zigbee, USB, Ethernet, CAN in signal and application layer \\
+        Circuit Design          & Analog and digital circuit design, simulation, FPGA synthesis with VHDL and Verilog  \\
+        Prototyping and Testing & On-board and PCB prototyping, developing test
+        fixture and test automation scripts \\
+        Software Development    & C/C++, Python, Git, Linux, Bash scripting, Tcl/Tk scripting, Qt \& GTK GUI framework \\
+    \end{tabular}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+    \textbf{Graduate Research Assistant} \hfill Nov 2023 - Now \\
+    Advisor: Dr. Suruz Miah, Bradley University \hfill \textit{Peoria, IL}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item \textbf{Collaborative Robots for Human-Robot Interaction} Design, implement and validate control and navigation systems of Cobots from simulation to real environments
+        \item \textbf{Pulmonary Acoustic Sensor Array} Support the development of an IoT device capable of monitor multiple channels of lung acoustics simultaneously and remotely diagnosing with machine learning algorithms
+    \end{itemize}
+
+    \textbf{Embedded Software Engineer} \hfill August 2021 - July 2023 \\
+    L\&T Technologies \hfill \textit{Peoria, IL}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item Maintained and troubleshoot embedded C firmware for Caterpillar transmission Electronic Control Module (ECM)
+        \item Maintained and develop automated testing framework for ECM firmware in a virtual simulated environment
+        \item Developed feature-oriented test strategies and automation scripts for ECM firmware
+    \end{itemize}
+
+    \textbf{Undergraduate Research Assistant} \hfill August 2019 - May 2021 \\
+    Advisor: Dr. Anca Ralescu, University of Cincinnati \hfill \textit{Cincinnati, OH}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item Applied data analysis methods to spatio-temporal electroencephalographic (EEG) data for classification problem, and
+        \item Machine learning techniques to detect human motor imagery intentions with post-processed data
+    \end{itemize}
+
+
+    \textbf{Electrical Engineer (R\&D Co-op)} \hfill June - August 2019\\
+    Ethicon Endo-Surgery Inc. \hfill \textit{Blue Ash, OH}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item Designed, assembled, and tested an embedded PCB for a prototype product
+        \item Built test fixtures for NFC sensing technologies
+    \end{itemize}
+
+    \textbf{Electrical Engineer Team Member} \hfill August 2019 - August 2021
+    \\	rLoop - a global, crowdsourced engineering organization \hfill \textit{}
+    \begin{itemize}
+        \itemsep -4pt {}
+        \item \textit{Not-A-Boring-Competition} is run by the Boring Company that aims to build a novel tunnel boring system
+        \item Designed a modified leader-follower control scheme with pure-pursuit algorithm for the proposed final design draft
+        \item Design proposal selected with 11 other finalists among 390 competitors
+    \end{itemize}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OTHER PROJECTS}
+    \vspace{-1em}
+    \item {\textbf{Adaptive Video Streaming System For Remote Control}} {Develop dynamic adaptive streaming system for teleoperations over unpredictable network conditions using state-of-the-art technologies (Caterpillar sponsored project, ongoing)}
+    \item \href{https://github.com/liu2g/mgms}{\textbf{Modular Garden Monitoring System}} {An embedded system that autonomously manages garden environment with friendly UI, modular design and wireless communication (Senior Capstone Project)}
+    \item \textbf{Hyperloop Competition} {Participated in the development of the levitation pod for the carrier vehicle}
+
+\end{rSection}
+
+%	%----------------------------------------------------------------------------------------
+%	\begin{rSection}{Extra-Cirrucular Activities}
+%		\begin{itemize}
+%			\item 	Sample bullet point.
+%			\item	Sample bullet point.
+%		\end{itemize}
+%
+%
+%	\end{rSection}
+%
+%	%----------------------------------------------------------------------------------------
+%	\begin{rSection}{Leadership}
+%		\begin{itemize}
+%			\item Sample section
+%		\end{itemize}
+%
+%
+%	\end{rSection}
+
+
+\end{document}
+
